@@ -1,0 +1,59 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/grayTwo</item>
+        <item name="colorPrimaryDark">@color/gray25</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="editTextStyle">
+        <item name="android:backgroundTint">@android:color/white</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="HomeScreen" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+
+
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+    <style name="Spinner" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="chipStyle" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/grayTwo</item>
+        <item name="colorPrimaryDark">@color/gray25</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="chipBackgroundColor">@color/grayOne</item>
+    </style>
+
+    <style name="chip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@drawable/bg_color_state</item>
+        <item name="android:textColor">@drawable/text_color_chip_state</item>
+        <item name="chipStrokeColor">@color/grayOne</item>
+        <item name="chipStrokeWidth">1dp</item>
+
+    </style>
+
+    <style name="searchView" parent="Widget.AppCompat.SearchView">
+        <item name="queryHint">@android:color/white</item>
+    </style>
+
+    <style name="builder" parent="@android:style/Theme.Holo"/>
+
+
+</resources>

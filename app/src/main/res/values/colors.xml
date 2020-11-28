@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grayTwo">#303030</color>
+    <color name="grey33">#FF212121</color>
+    <color name="gray25">#191919</color>
+    <color name="grey42">#2A2A2A</color>
+    <color name="colorAccent">#787878</color>
+    <color name="grayOne">#8D8D8D</color>
+    <color name="yellowText">#F7C524</color>
+    <color name="bg">#A6636363</color>
+    <color name="maroon">#9c0303</color>
+    <color name="favourite">#FF3333</color>
+    <color name="my_spinner_text_color">#FFFFFFFF</color>
+
+</resources>

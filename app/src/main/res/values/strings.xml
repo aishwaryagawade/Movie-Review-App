@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Movie Review</string>
+    <string name="login">Log In</string>
+    <string name="signup">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="addToFav">Add to Favourites</string>
+    <string name="addedToFav">Added to Favourites</string>
+    <string name="rate_this">Rate This</string>
+    <string name="submit">SUBMIT</string>
+    <string name="add_a_review">ADD A REVIEW</string>
+    <string name="see_all">See all</string>
+    <string name="rate">Rate</string>
+
+</resources>

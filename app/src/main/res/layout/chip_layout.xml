@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/chipStyle">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingStart="3dp"
+        android:paddingEnd="3dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:singleLine="true"
+            app:singleSelection="true">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/scifi"
+                style="@style/chip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Science Fiction" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/romance"
+                style="@style/chip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Romance" />
+
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/horror"
+                style="@style/chip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horror" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/comedy"
+                style="@style/chip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comedy" />
+
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/action"
+                style="@style/chip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action" />
+        </com.google.android.material.chip.ChipGroup>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
